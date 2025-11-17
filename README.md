@@ -1,7 +1,6 @@
 # 💻 dotfiles
 
-A personal collection of configuration files (dotfiles) that define my development environment and command-line workflow.  
-This repository serves as a centralized backup and easy setup source for my preferred tools, themes, and system configurations.
+A personal collection of configuration files (dotfiles) that define my development environment and command-line workflow. This repository serves as a centralized backup and easy setup source for my preferred tools, themes, and system configurations.
 
 ## 🧰 Includes
 - Shell configurations (e.g., `.bashrc`, `.zshrc`, `.aliases`, `.vimrc`)
