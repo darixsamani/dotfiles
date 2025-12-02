@@ -46,9 +46,12 @@ Plug 'jiangmiao/auto-pairs'
 " Optional: VS Code-like theme
 Plug 'morhetz/gruvbox'
 
-" plugin w
+" plugin wakatime
 
 Plug 'wakatime/vim-wakatime'
+
+" Official Rust Plugin for vim
+Plug 'rust-lang/rust.vim'
 
 set number
 
