@@ -111,3 +111,25 @@ export NVM_DIR="$HOME/.nvm"
 export CARGO_TARGET_DIR=~/cargo-target
 
 export PATH=$PATH:/usr/local/go/bin
+# bun completions
+[ -s "/home/darix/.bun/_bun" ] && source "/home/darix/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/darix/.juliaup/bin' $path)
+export PATH
+# Tab completion for juliaup and julia channel selection
+[ -f "/home/darix/.julia/juliaup/completions/zsh.zsh" ] && source "/home/darix/.julia/juliaup/completions/zsh.zsh"
+
+# <<< juliaup initialize <<<
+
+
+export ANDROID_HOME="$HOME/Android/Sdk"
+export ANDROID_NDK_HOME="$HOME/Android/Sdk/ndk/30.0.14904198"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
