@@ -53,6 +53,11 @@ Plug 'wakatime/vim-wakatime'
 " Official Rust Plugin for vim
 Plug 'rust-lang/rust.vim'
 
+" Plugin for Rust
+syntax enable
+filetype plugin indent on
+Plug 'rust-lang/rust.vim'
+
 set number
 
 call plug#end()
