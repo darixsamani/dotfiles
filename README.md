@@ -14,3 +14,14 @@ The goal of this repository is to:
 - Keep all my configuration files version-controlled and portable  
 - Quickly bootstrap new systems with my personalized setup  
 - Share useful configurations and tips with others
+
+## Install Vim Plug
+
+after installating vim we need to install a tool that allow us to manage vim plugin. and for our choose we use Plug Vim
+
+Scrit to install Plug Vim
+
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
