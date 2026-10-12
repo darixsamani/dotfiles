@@ -15,13 +15,15 @@ The goal of this repository is to:
 - Quickly bootstrap new systems with my personalized setup  
 - Share useful configurations and tips with others
 
-## Install Vim Plug
+## Install vim-plug
 
-after installating vim we need to install a tool that allow us to manage vim plugin. and for our choose we use Plug Vim
+After installing Vim, the next step is to install a plugin manager to simplify the installation and management of Vim plugins. For this configuration, we use **[vim-plug](https://github.com/junegunn/vim-plug)**, a lightweight plugin manager for Vim.
 
-Scrit to install Plug Vim
+Run the following command to install `vim-plug`:
 
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
+Once installed, you can declare your plugins in your `~/.vimrc` file and install them by running `:PlugInstall` inside Vim.
