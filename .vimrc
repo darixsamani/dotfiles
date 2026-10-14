@@ -1,6 +1,7 @@
 " ===============================
 "   Vim Configuration (.vimrc)
 " ===============================
+set encoding=utf-8
 
 " -----------------------------------
 " Plugin Manager: vim-plug
