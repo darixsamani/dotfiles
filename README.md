@@ -27,3 +27,21 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 
 Once installed, you can declare your plugins in your `~/.vimrc` file and install them by running `:PlugInstall` inside Vim.
+
+## Install a Nerd Font
+
+```bash
+mkdir -p ~/.local/share/fonts && cd ~/.local/share/fonts
+curl -fLO https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+unzip -o JetBrainsMono.zip && rm JetBrainsMono.zip
+fc-cache -fv
+```
+
+### Set it as your terminal font
+
+
+1. Set the font in Appearance
+2. Click the Appearance tab (next to the search icon).
+3. Turn off “Use System Font”.
+3. Click Terminal Font and search for JetBrainsMono Nerd Font (or “JetBrainsMono NF”).
+4. Pick a regular weight, then close the preferences.
