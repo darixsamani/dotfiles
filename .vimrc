@@ -16,8 +16,7 @@ nmap <C-n> :NERDTreeToggle<CR>
 
 Plug 'ycm-core/YouCompleteMe'
 
-"syntax checking
-Plug 'sheerun/vim-polyglot'
+
 
 
 " Fuzzy file finder (like Ctrl+P in VS Code)
@@ -28,7 +27,7 @@ nnoremap <C-p> :Files<CR>
 " Autocompletion (via LSP-like experience)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Language support & syntax highlighting
+" Language support & syntax highlighting and checking
 Plug 'sheerun/vim-polyglot'
 
 " Git integration (like built-in Git panel in VS Code)
@@ -50,10 +49,8 @@ Plug 'morhetz/gruvbox'
 
 Plug 'wakatime/vim-wakatime'
 
-" Official Rust Plugin for vim
-Plug 'rust-lang/rust.vim'
 
-" Plugin for Rust
+" Official Rust Plugin for vim
 syntax enable
 filetype plugin indent on
 Plug 'rust-lang/rust.vim'
