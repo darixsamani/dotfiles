@@ -15,6 +15,9 @@ Plug 'tpope/vim-sensible'
 Plug 'preservim/nerdtree'
 nmap <C-n> :NERDTreeToggle<CR>
 
+let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\.git$', '\.swp$', '\.DS_Store$', '__pycache__']
+
 Plug 'ycm-core/YouCompleteMe'
 
 
